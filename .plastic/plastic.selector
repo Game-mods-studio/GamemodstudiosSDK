@@ -1,0 +1,4 @@
+repository "GamemodstudiosSDK@Gamemodstudios@cloud"
+  path "/"
+    br "/main"
+    co "/main"

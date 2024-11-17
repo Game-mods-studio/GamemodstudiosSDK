@@ -1,0 +1,66 @@
+# Unity-specific directories
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Cache and auto-generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# Crash reports
+*.crash
+
+# Exclude OS-specific and temporary files
+.DS_Store
+Thumbs.db
+
+# IDE-specific settings
+.vscode/
+.idea/
+
+# Logs and debug files
+*.log
+*.stackdump
+
+# Unity auto-generated backups
+*.bak
+*.backup
+
+# Exclude files specific to the package development setup
+# Include everything under Assets and ProjectSettings but ignore irrelevant files
+!/[Aa]ssets/
+!/[Pp]roject[Ss]ettings/
+[Aa]ssets/**/*.cs.meta
+[Aa]ssets/**/*.shader.meta
+[Aa]ssets/**/*.prefab.meta
+[Aa]ssets/**/*.mat.meta
+
+# Include Packages folder for local dependencies but exclude temporary files
+/Packages/*.tmp
+/Packages/packages-lock.json
+!Packages/manifest.json
+
+# Plugins and binaries
+[Bb]in/
+[Dd]ebug/
+
+# Exclude build artifacts
+*.apk
+*.aab
+*.xcodeproj
+*.exe
+*.app
+*.unitypackage
